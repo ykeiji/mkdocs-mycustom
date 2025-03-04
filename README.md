@@ -1,16 +1,20 @@
 # mkdocs-mycustom
 
+- Official links:
+  - Generater: [MkDocs](https://www.mkdocs.org/)
+  - Theme: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
 ## install
-```bash
+```python
 pip install mkdocs mkdocs-material
 ```
 
-## make project
+## make mkdoc project
 ```bash
 mkdocs new sampledoc
 ```
 
-## start with exist files
+## start with exist config file
 -> move same directory of mkdocs.yml then type build
 ```bash 
 mkdocs build
