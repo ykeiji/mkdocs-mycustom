@@ -12,11 +12,14 @@ theme:
     logo: simple/gitbook
     favicon: simple/gitbook
 docs_dir: docs
+extra_css:
+  - extra.css
 use_directory_urls: false
 nav:
-  - Introduction: index.md
+  - Intro: index.md
   - Sample:
       - template: template.md
+      - mermaid: mermaid.md
 markdown_extensions:
   - tables
   - pymdownx.keys

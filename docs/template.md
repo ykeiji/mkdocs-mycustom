@@ -103,18 +103,20 @@ markdown形式
 
 ## 画像
 
-![alt文字列](画像URL “title文字列”)で画像が表示されます。
-ハイパーリンクと同じように外部参照も利用できます。
+`![alt文字列](画像URL “title文字列”)` で画像が表示されます  
+ハイパーリンクと同じように外部参照も利用できます
 
-![赤](docs/img/sample_red.png "赤色")
+#### シンプルな画像も表示
+![simple](img/cat.jpg "cat")
 
-![青][blue]
-[blue]:docs/img/sample_blue.png "青色"
+#### 外部参照の画像表示
+![external](https://dummyimage.com/600x400/eee/aaa)
 
-[![緑](docs/img/sample_green.png "緑色ファイルにリンク")](docs/img/sample_green.png)
+#### 画像も表示しつつリンクを貼る1
+[![cat](img/cat.jpg "緑色ファイルにリンク")](img/cat.jpg)
 
-[![黄](docs/img/sample_yellow.png "黄色ファイルにリンク")][yellow]
-[yellow]: docs/img/sample_yellow.png "黄色"
+#### 画像も表示しつつリンクを貼る2
+[![cat](img/cat.jpg)](img/cat.jpg)
 
 ## キーボードアイコン
 
