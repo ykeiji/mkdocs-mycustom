@@ -75,3 +75,11 @@ h6{
     width: 85%;
     margin-left: 7.45%;
 }
+
+.md-footer {
+    display: none;
+}
+
+.md-typeset__table table th {
+    background-color: #f8f8f8;
+}

@@ -72,14 +72,16 @@ ___
 アンダースコアを3つ  
 
 ## リンク
-
+```
 [表示文字](リンクURL "Title属性")でリンクを記述できます  
-[定義文字]:URL "Title属性"で定義参照も出来ます  
+```
+
+[表示文字](https://www.google.co.jp "Google")でリンクを記述できます参照も出来ます  
 
 [google](https://www.google.co.jp/ "ぐーぐる")と[yahoo](https://www.yahoo.co.jp/ "やふー")  
 [あっちにgoogle][google]（その他の文章）[こっちにyahoo][yahoo]  
 URL( https://www.google.co.jp/ )だけではリンクは作成されない。  
-サイト内は[mdファイル](index.md)の指定で変換できます。
+サイト内は[mdファイル](index.md)のファイル名およびパス指定で変換できます。
 
 [google]: https://www.google.co.jp/ "ぐーぐるさん"
 [yahoo]: https://www.yahoo.co.jp/ (やふーさん)
@@ -87,8 +89,9 @@ URL( https://www.google.co.jp/ )だけではリンクは作成されない。
 ## テーブル
 
 markdown形式
+
 | header1 | header2 | header3 |
-|---|---|
+|---------|---------|---------|
 | a | b | c |
 
 | First Header | Second Header | Third Header |

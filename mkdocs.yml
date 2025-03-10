@@ -7,6 +7,7 @@ theme:
       - navigation.expand
       - navigation.top
       - content.code.copy
+      - navigation.indexes
   language: ja
   icon:
     logo: simple/gitbook
@@ -16,10 +17,10 @@ extra_css:
   - extra.css
 use_directory_urls: false
 nav:
-  - Intro: index.md
-  - Sample:
-      - template: template.md
-      - mermaid: mermaid.md
+- index.md
+- sample:
+  - template: template.md
+  - mermaid: mermaid.md
 markdown_extensions:
   - tables
   - pymdownx.keys
@@ -35,3 +36,5 @@ markdown_extensions:
       noclasses: true
       pygments_style: xcode
       use_pygments: true
+  - toc:
+      toc_depth: 2

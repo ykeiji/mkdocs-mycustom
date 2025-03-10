@@ -1,4 +1,4 @@
 # index.md
 
-- [テンプレ](template.md)
-- [Mermaidサンプル](mermaid.md)
+- [template](template.md)
+- [mermaid](mermaid.md)
